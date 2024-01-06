@@ -25,7 +25,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.personalportifolioapp.ui.theme.PersonalPortifolioAppTheme
 
-class MainActivity : ComponentActivity() {
+class MainActivity : ComponentActivity()  {
     @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
     @OptIn(ExperimentalMaterial3Api::class)
     override fun onCreate(savedInstanceState: Bundle?) {
